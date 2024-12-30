@@ -3,10 +3,10 @@ console.log("Variables && Data types");
 
 //TODO>> Variables
 //! 1) var
-var x = 2;
+var x: number = 2;
 
 //! 2) let => is better than var
-let y = 3;
+let y: number = 3;
 
 //! 3) const => value can't be changed after declaration
 const PI = 3.14;
