@@ -9,6 +9,7 @@ var Status;
     Status["Approved"] = "approved";
     Status["Rejected"] = "rejected";
 })(Status || (Status = {}));
+//! here you can access by index or name
 var Days;
 (function (Days) {
     Days[Days["Sunday"] = 0] = "Sunday";
@@ -19,8 +20,6 @@ var Days;
     Days[Days["Friday"] = 5] = "Friday";
     Days[Days["saturday"] = 6] = "saturday";
 })(Days || (Days = {}));
-let todayNumber = Days.Sunday;
-let today = Days[0];
-console.log(todayNumber);
-console.log(today);
+let todayNumber = Days.Sunday; // value = 0
+let today = Days[0]; // value = Sunday
 //# sourceMappingURL=8-Literals=Enums.js.map
