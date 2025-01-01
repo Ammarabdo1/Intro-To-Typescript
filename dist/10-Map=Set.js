@@ -22,5 +22,5 @@ console.log(marks.set("habiba", 98));
 //! get
 console.log(marks.get("habiba"));
 //! has
-console.log(marks.has('Ammar'.toLowerCase()));
+console.log(marks.has('Ammar'));
 //# sourceMappingURL=10-Map=Set.js.map

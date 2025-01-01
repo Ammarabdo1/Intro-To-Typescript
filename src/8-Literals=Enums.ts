@@ -5,6 +5,9 @@ console.log("literals & Enums");
 type StringOrNumber = string | number;
 type FlightType = "Round Trip" | "One Way" | "Return";
 
+    //*______________________________________________________________________________*//
+    //*``````````````````````````````````````````````````````````````````````````````*//
+    
 //TODO> Enums
 //! you can't change values in enum
 enum Status {

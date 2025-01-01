@@ -10,6 +10,9 @@ interface Person {
 //TODO>> Partial => Make all properties in a Type optional.
 const person:Partial<Person> = {} // 'person' can now be an empty object
 
+    //*______________________________________________________________________________*//
+    //*``````````````````````````````````````````````````````````````````````````````*//
+
 //TODO>> Required => Make all properties in a Type required.
 const person2: Required<Person> = {
     name: 'ammar',
@@ -17,6 +20,9 @@ const person2: Required<Person> = {
     address: 'Egypt' // is required Although there is <?>
 }
 
+    //*______________________________________________________________________________*//
+    //*``````````````````````````````````````````````````````````````````````````````*//
+    
 //TODO>> Record => Make all properties in a Type into a new type.
 //* In this case, 'Ages' is a type where keys are strings, and values are also strings.
 type Ages = Record<string, string>;
@@ -25,6 +31,9 @@ const ages: Ages = {
     yousef: '20',
 }
 
+    //*______________________________________________________________________________*//
+    //*``````````````````````````````````````````````````````````````````````````````*//
+    
 //TODO>> Omit => remove properties from a Type.
 type Person2 = Omit<Person, 'address'>
 const Person2: Person2 = {
@@ -33,12 +42,18 @@ const Person2: Person2 = {
     // address: '#' //! Error: 'address' does not exist in 'Person2' because it was omitted.
 }
 
+    //*______________________________________________________________________________*//
+    //*``````````````````````````````````````````````````````````````````````````````*//
+    
 //TODO>> Pick => take some properties of a Type.
 type Person3 = Pick<Person, 'name'>
 const person3: Person3 = {
     name: 'ammar', // 'name' is required in 'Person3' because it was picked from the 'Person' interface.
 }
 
+    //*______________________________________________________________________________*//
+    //*``````````````````````````````````````````````````````````````````````````````*//
+    
 //TODO>> Readonly => Convert all properties to readonly
 const person4: Readonly<Person> = {
     name: 'ammar',

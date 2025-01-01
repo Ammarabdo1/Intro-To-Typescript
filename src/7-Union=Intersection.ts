@@ -5,6 +5,9 @@ console.log('Union & intersection')
 //! this variable allows numbers or strings
 export let age: number | string
 
+    //*______________________________________________________________________________*//
+    //*``````````````````````````````````````````````````````````````````````````````*//
+    
 //TODO>> Intersection
 interface Client {
     name: string;
