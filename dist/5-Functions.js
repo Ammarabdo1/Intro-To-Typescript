@@ -7,12 +7,18 @@
 function userNumber(n) {
     return `User Number ${n}`;
 }
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> Anonymous Function
 const userNumber2 = function (n) {
     return `User Number ${n} - Anonymous`;
 };
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> Arrow Function
 const userNumber3 = (n) => `User Number ${n} - Arrow`;
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> Optional Parameters <user ?>
 function sayHi(name, age) {
     if (age) {
@@ -21,6 +27,8 @@ function sayHi(name, age) {
     return `Hello ${name}`;
 }
 sayHi("ammar"); //* output: Hello ammar
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> Default value for Parameters <use =>
 function sayHi2(name, age = 22) {
     return `Hello ${name}, you have ${age} years old`;

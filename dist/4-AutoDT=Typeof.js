@@ -12,6 +12,8 @@ let account = {
     owner: "ammar",
     id: 22071,
 };
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> Typeof
 console.log(typeof name2); // output: string
 //# sourceMappingURL=4-AutoDT=Typeof.js.map

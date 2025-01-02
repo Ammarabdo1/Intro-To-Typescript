@@ -3,6 +3,8 @@
 console.log('Mapped Types');
 //TODO>> Partial => Make all properties in a Type optional.
 const person = {}; // 'person' can now be an empty object
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> Required => Make all properties in a Type required.
 const person2 = {
     name: 'ammar',
@@ -21,6 +23,8 @@ const Person2 = {
 const person3 = {
     name: 'ammar', // 'name' is required in 'Person3' because it was picked from the 'Person' interface.
 };
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> Readonly => Convert all properties to readonly
 const person4 = {
     name: 'ammar',

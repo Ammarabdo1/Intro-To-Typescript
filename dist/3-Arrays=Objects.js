@@ -9,6 +9,8 @@ let numbers = [12, 5, 32, 52, 13];
 //! methods
 names.push('yasmen'); //* push element in the last of array
 names.pop(); //* return last element and remove it from array
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> Objects
 let user = {
     name: 'ammar',

@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.person = void 0;
 //? Class in Typescript
 console.log('Class in Typescript');
 //* hints
@@ -12,6 +14,11 @@ class Person {
         this.age = age;
     }
 }
+//TODO>> Creating an Object
+//! Instantiate a Person object with specific values
+exports.person = new Person('ammar', 22);
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> Limitations (public, private, readonly, protected)
 class Car {
     //! Constructor
@@ -27,8 +34,8 @@ class Car {
         console.log("the car is moving...");
     }
 }
-//*_____________________________________________________________________________________________________*//
-//*`````````````````````````````````````````````````````````````````````````````````````````````````````*//
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> Inheritance
 //! Super(Base) class
 class Creature {
@@ -47,7 +54,7 @@ class Creature {
     }
 }
 //! Sub class
-class Peron extends Creature {
+class Human extends Creature {
     constructor(name, age, Ssn) {
         super(name, age); //* Call to the base class constructor
         this.name = name;
@@ -63,15 +70,14 @@ class Peron extends Creature {
     }
 }
 class MyTask {
-    constructor(name, age) {
+    constructor(name) {
         this.name = name;
-        this.age = age;
         this.name = name;
     }
     run(task) {
         console.log(`run ${task}`);
     }
 }
-const task = new MyTask('TS', 22);
+const task = new MyTask('TS');
 task.run('TS');
 //# sourceMappingURL=11-OOP.js.map

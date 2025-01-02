@@ -1,6 +1,8 @@
 "use strict";
 //? Literals & Enums
 console.log("literals & Enums");
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO> Enums
 //! you can't change values in enum
 var Status;

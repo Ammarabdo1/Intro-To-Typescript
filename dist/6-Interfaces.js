@@ -3,11 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.fruits = void 0;
 //? Interfaces
 console.log('Interfaces...');
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> set a variable of type interface
 const car = {
     brand: "BMW",
     price: 2000000,
 };
+//*______________________________________________________________________________*//
+//*``````````````````````````````````````````````````````````````````````````````*//
 //TODO>> set an array of interface type
 const cars = [
     { brand: "BMW", price: 2000000 },
