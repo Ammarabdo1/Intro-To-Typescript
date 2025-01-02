@@ -57,12 +57,12 @@ interface Fruits {
   [index: number]: string;
 }
 
-//! defined like an array but not an array
-export const fruits: Fruits = [
+const fruits: Fruits = [
   //* hint => export here so the variable become local
   "Apple",
   "banana",
 ];
+export default fruits // because I'm using this variable in another file, I'm exporting it to make it a local variable
 
 //! defined as an object
 const fruits2: Fruits = {

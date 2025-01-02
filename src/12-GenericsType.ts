@@ -1,4 +1,6 @@
 //? Generic types
+console.log("Generic types...");
+
 function identity<T>(arg: T): T {
     return arg
 }
